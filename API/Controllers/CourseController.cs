@@ -67,7 +67,7 @@ namespace API.Controllers
 
             if(course is null)
             {
-                JsonResponse(HttpStatusCode.BadRequest, "Invalid Id. Course not found.");
+                return JsonResponse(HttpStatusCode.BadRequest, "Invalid Id. Course not found.");
             }
 
             var model = new CourseModel()
