@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.CourseController.GetAllCourses">
+            <summary>
+            Get Courses
+            </summary>        
+            <remarks>Retrieves all courses.</remarks>
+        </member>
+        <member name="M:API.Controllers.CourseController.GetCourseById(System.Int32)">
+            <summary>
+            Get Course by Id
+            </summary>        
+            <remarks>Retrieves a specific course by ID.</remarks>
+            <param name="id">Course ID</param>
+        </member>
+        <member name="M:API.Controllers.CourseController.CreateCourseApplication(API.Models.CourseApplicationModel)">
+            <summary>
+            Create Course Application
+            </summary>        
+            <remarks>Creates a new course application.</remarks>
+        </member>
+    </members>
+</doc>
