@@ -27,6 +27,7 @@ namespace API.Models
         public string CompanyPhone { get; set; }
 
         [Required]
+        [EmailAddress]
         [JsonProperty("companyEmail")]
         public string CompanyEmail { get; set; }
 
@@ -38,6 +39,7 @@ namespace API.Models
     public class CourseApplicationParticipantModel
     {
         [Required]
+        [EmailAddress]
         [JsonProperty("email")]
         public string Email { get; set; }
 

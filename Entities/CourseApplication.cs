@@ -23,7 +23,7 @@ namespace Entities
         [ForeignKey("CourseDate")]
         public int CourseDateId { get; set; }
 
-        public CourseDate CourseDate { get; set; }
+        public virtual CourseDate CourseDate { get; set; }
 
         public virtual ICollection<CourseApplicationParticipant> CourseApplicationParticipants { get; set; }
     }
